@@ -15,3 +15,9 @@ if (törzse == false)
     }
 }
 double végössz = (rendelésö + szálitás);
+Console.WriteLine($"========================================");
+Console.WriteLine($"Vásárló neve:   {vn}");
+Console.WriteLine($"Rendelés összege:   {rendelésö} Ft");
+Console.WriteLine($"Szállítási díj:   {szálitás} Ft (Törzsvásárlói / 10k feletti ingyenes szállítás)");
+Console.WriteLine($"Fizetendő végösszeg:   {8500} Ft");
+Console.WriteLine($"========================================");
