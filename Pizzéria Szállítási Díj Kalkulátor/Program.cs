@@ -1,4 +1,6 @@
-﻿string vn = "Tóth Bence";
+﻿using System.Drawing;
+
+string vn = "Tóth Bence";
 double rendelésö = 8500;
 bool törzse = true;
 double szálitás = 0;
@@ -15,6 +17,7 @@ if (törzse == false)
     }
 }
 double végössz = (rendelésö + szálitás);
+Console.ForegroundColor = ConsoleColor.Green;
 Console.WriteLine($"========================================");
 Console.WriteLine($"Vásárló neve:   {vn}");
 Console.WriteLine($"Rendelés összege:   {rendelésö} Ft");
